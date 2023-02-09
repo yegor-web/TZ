@@ -1,0 +1,274 @@
+h2 {
+  text-align: center;
+  position: absolute;
+  left: 18%;
+  margin-top: 10%;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+img {
+  height: 900px;
+}
+
+h1 {
+  text-align: center;
+  background: grey;
+  margin-top: 20px;
+}
+
+marquee {
+  background: red;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  border: 3px solid black;
+}
+
+.btn-primary {
+  position: absolute;
+  left: 78%;
+  margin-top: 30%;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.box {
+  border-style: solid;
+  position: absolute;
+  left: 32%;
+  margin-top: 17%;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #00ff0d;
+  border-radius: 10%;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+  box-shadow: 10px 10px 10px green;
+}
+
+.box:hover {
+  background-color: #0fbd1d;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(180deg);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  transform: rotate(720deg);
+}
+
+.place {
+  border-style: solid;
+  position: absolute;
+  left: 22%;
+  margin-top: 25%;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #00ff0d;
+  border-radius: 10%;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.place:hover {
+  background-color: red;
+  color: white;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transform: rotate(180deg);
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  transform: rotate(10800deg);
+}
+
+input {
+  width: 450px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.paragraph {
+  width: 500px;
+  height: 300px;
+  color: white;
+  left: 73%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.floor {
+  min-width: 1000px;
+  min-height: 100px;
+  color: white;
+  font-size: 20px;
+  left: 50px;
+  margin-top: 35%;
+  position: absolute;
+  visibility: hidden;
+}
+
+.floor:hover {
+  width: 90%;
+  padding: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.map {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+body {
+  background: #bed1ee;
+}
+
+.h3 {
+  color: black;
+  width: 1000px;
+  margin-top: 30px;
+  font-size: 35px;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #000;
+  margin-left: 10%;
+}
+
+h3 {
+  color: white;
+  margin-top: 30px;
+  font-size: 35px;
+  text-align: center;
+  border: 3px solid black;
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.navbar-brand {
+  font-style: 1000px;
+}
+
+button {
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
+  min-width: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: green;
+  background-color: aqua;
+  border: 3px solid blue;
+}
+
+.imaga1 {
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left: 30%;
+}
+
+.imaga1:hover {
+  background-image: url("https://aif-s3.aif.ru/images/019/245/ee3fc5b290c30830dc7eb05ac8a5db0a.jpg");
+  width: 500px;
+  height: 400px;
+}
+
+.imaga2 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0%;
+}
+
+.imaga2:hover {
+  background-image: url("https://www.eg.ru/wp-content/uploads/2022/05/nerpa-pre052330.jpg");
+  width: 1200px;
+  height: 1000px;
+}
+
+.imaga3 {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 40%;
+}
+
+.imaga3:hover {
+  background-image: url("https://tripplanet.ru/wp-content/uploads/europe/russia/baikal/dostoprimechatelnosti-bajkala.jpg");
+  width: 800px;
+  height: 600px;
+}
+
+.rh {
+  visibility: hidden;
+}
+
+.rp {
+  visibility: hidden;
+}
+
+.op {
+  visibility: hidden;
+}
+
+.fp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.sp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+.tp {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+}
+
+iframe {
+  margin-left: 50px;
+}/*# sourceMappingURL=style.css.map */
